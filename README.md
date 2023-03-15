@@ -1,5 +1,5 @@
 # :chopsticks: ts-from-swagger
-- :date:**03-03-2023** :pushpin:**Beta Version 1.0.2**
+- :date:**03-15-2023** :pushpin:**Beta Version 1.0.2**
 - :computer:<a href="https://github.com/n4j1Br4ch1D" target="_blank" title="NajibRachid: Agile full-stack developer">NajibRachid</a> :purple_circle:<a href="https://anmoonweb.com/?ref=ts-from-swagger" target="_blank" title="ANMOON: Right talents at the right place ">ANMOON</a> :office: <a href="https://x-hub.io/?ref=ts-from-swagger" target="_blank" title="XHUB: For Developers By Developers">XHUB</a>
 
 Generate TypeScript interfaces and enums quickly and easily from Swagger definition JSON with our lightweight tool. Improve your development workflow by automatically generating type-safe code that's easy to maintain and understand. Say goodbye to manual coding and hello to streamlined development with our Swagger definition Typescript generator.
@@ -10,7 +10,8 @@ GIF
 
 ## Features
 
-- [x] Lightweight, Simple & Easy to use.
+- [x] Lightweight, & No dependencies.
+- [x] Simple & Easy to use.
 - [x] Fetch directly from Swagger json url. 
 - [x] Support interfaces and enums. 
 - [x] Support required fields. 
@@ -28,8 +29,25 @@ yarn add ts-from-swagger --dev
 
 ## Usage
 
+Specify your swagger JSON url and followed by output directory(default is: `./src/SwaggerDefinitions`)
+
 ```sh
-node ts-from-swagger
+npx ts-from-swagger https://petstore.swagger.io/v2/swagger.json ./path/to/output/dir
+
+```
+Or add a script to your package.json file:
+
+```json
+  "scripts": {
+    "ts-from-swagger": "npx ts-from-swagger https://petstore.swagger.io/v2/swagger.json ./path/to/output/dir"
+  }
+
+```
+
+Then run the script with npm run:
+
+```sh
+npm run ts-from-swagger
 ```
 
 ## Releases
@@ -42,11 +60,14 @@ node ts-from-swagger
     - CLI configuration.
     - Generate Enums.
     - Fix Wrong type for arrays.
+    - Fix OutputPath make recursive.
   - Beta Version 1.0.2 : 15/03/2023
     - Fix Imports.
     - Make Subfolders.
     - Respect naming conventions.
     - Refactor Code.
+  - [Agenda] Beta Version 1.0.3 : 16/03/2023
+    - Add Authorization.
 ```
 
 ## Contributing
