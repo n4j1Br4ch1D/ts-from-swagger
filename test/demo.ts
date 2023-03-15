@@ -23,7 +23,7 @@ const newPet: Pet = {
   id: 123,
   name: "Mischievous",
   category: cats,
-  photoUrls: ["https://picsum.photos/200"], // not required
+  // photoUrls: ["https://picsum.photos/200"], // not required
   tags: [friendly, mellow],
   status: PetStatus.AVAILABLE,
 };

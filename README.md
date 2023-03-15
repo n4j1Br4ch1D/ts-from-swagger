@@ -49,7 +49,50 @@ Then run the script with npm run:
 ```sh
 npm run ts-from-swagger
 ```
+## Demo
 
+Write types safe code from your frontend to your backend API,  backend agnostic as long as you use Swagger.
+
+```ts
+import axios from "axios";
+import { PetStatus } from "./definitions/enums/PetStatus.enum";
+import { Category } from "./definitions/interfaces/Category.interface";
+import { Pet } from "./definitions/interfaces/Pet.interface";
+import { Tag } from "./definitions/interfaces/Tag.interface";
+
+const cats: Category = {
+  id: 1,
+  name: "Cats",
+};
+
+const friendly: Tag = {
+  id: 1,
+  name: "friendly",
+};
+
+const mellow: Tag = {
+  id: 2,
+  name: "mellow",
+};
+
+const newPet: Pet = {
+  id: 123,
+  name: "Mischievous",
+  category: cats,
+  // photoUrls: ["https://picsum.photos/200"], // not required
+  tags: [friendly, mellow],
+  status: PetStatus.AVAILABLE,
+};
+
+axios
+  .post("https://petstore.swagger.io/v2/pet", newPet)
+  .then((response) => {
+    console.log(response.data);
+  })
+  .catch((error) => {
+    console.error(error);
+  });
+```
 ## Releases
 
 ```txt
