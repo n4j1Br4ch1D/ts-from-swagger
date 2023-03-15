@@ -17,6 +17,7 @@ Generate TypeScript interfaces and enums quickly and easily from Swagger definit
 - [x] Support required fields. 
 - [x] Respects naming conventions.
 - [ ] Authorization for Swagger.
+- [ ] Supports Both versions 2 & 3.
 
 ## Install
 
@@ -110,8 +111,9 @@ axios
     - Make Subfolders.
     - Respect naming conventions.
     - Refactor Code.
-  - [Agenda] Beta Version 1.0.3 : 16/03/2023
+  - [Agenda] Beta Version 1.0.3 : xx/03/2023
     - Add Authorization.
+    - Supports Both versions 2 & 3.
 ```
 
 ## Contributing
