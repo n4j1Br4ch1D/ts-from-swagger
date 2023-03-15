@@ -9,8 +9,8 @@
   "type": "module",
   "scripts": {
     "test": "node test/test",
-    "gen": "node index https://petstore.swagger.io/v2/swagger.json ./test/src/SwaggerDefinitions",
-    "ts-from-swagger": "npx ts-from-swagger https://petstore.swagger.io/v2/swagger.json ./test/src/SwaggerDefinitions"
+    "gen": "node index https://petstore.swagger.io/v2/swagger.json ./test/src/definitions",
+    "ts-from-swagger": "npx ts-from-swagger https://petstore.swagger.io/v2/swagger.json ./test/src/definitions"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,7 @@
     "type-safe",
     "type-safe rest Apis",
     "type safety",
+    "tRPC",
     "TypeScript interfaces generator",
     "Swagger to TypeScript converter",
     "NPM package for generating TypeScript interfaces from Swagger",

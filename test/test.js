@@ -3,7 +3,7 @@ import assert from "assert";
 import { generateInterfaces } from "../utils.js";
 
 const swaggerUrl = "https://petstore.swagger.io/v2/swagger.json";
-const outputDir = "./test/src/SwaggerDefinitions";
+const outputDir = "./test/src/definitions";
 const definitions = [
   {
     filePath: `${outputDir}/enums/OrderStatus.enum.ts`,

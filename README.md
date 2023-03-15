@@ -29,7 +29,7 @@ yarn add ts-from-swagger --dev
 
 ## Usage
 
-Specify your swagger JSON url and followed by output directory(default is: `./src/SwaggerDefinitions`)
+Specify your swagger JSON url and followed by output directory(default is: `./src/definitions`)
 
 ```sh
 npx ts-from-swagger https://petstore.swagger.io/v2/swagger.json ./path/to/output/dir
