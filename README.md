@@ -16,6 +16,7 @@ Generate TypeScript interfaces and enums quickly and easily from Swagger definit
 - [x] Support interfaces and enums. 
 - [x] Support required fields. 
 - [x] Respects naming conventions.
+- [ ] Authorization for Swagger.
 
 ## Install
 
