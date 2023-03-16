@@ -6,7 +6,9 @@ Generate TypeScript interfaces and enums quickly and easily from Swagger definit
 
 **keywords:** _ts-from-swagger, swagger2ts, typescript generator, type-safe, type-safe rest Apis, type safety, TypeScript interfaces generator, Swagger to TypeScript converter, NPM package for generating TypeScript interfaces from Swagger, TypeScript definitions from Swagger, Swagger JSON to TypeScript, TypeScript code from Swagger schema, TypeScript typings from Swagger definition, Swagger interface to TypeScript conversion, TypeScript enum generator from Swagger JSON, TypeScript code generation from Swagger definition., Convert Swagger JSON to TypeScript code, tsgen._
 
-<img src="https://raw.githubusercontent.com/n4j1Br4ch1D/ts-from-swagger/main/assets/ts-from-swagger.gif" alt="ts-from-swagger" height="600" />
+---
+
+<img src="https://raw.githubusercontent.com/n4j1Br4ch1D/ts-from-swagger/main/assets/ts-from-swagger.gif" alt="ts-from-swagger" height="600"/>
 
 ## Features
 
