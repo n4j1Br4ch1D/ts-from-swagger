@@ -14,12 +14,13 @@ Generate TypeScript interfaces and enums quickly and easily from Swagger definit
 
 - [x] Lightweight, & No dependencies.
 - [x] Simple & Easy to use.
-- [x] Fetch directly from Swagger json url. 
+- [x] Fetch directly from Swagger Schema URL. 
 - [x] Support interfaces and enums. 
 - [x] Support required fields. 
 - [x] Respects naming conventions.
 - [ ] Authorization for Swagger.
-- [ ] Supports both Swagger versions 2 & 3.
+- [ ] Supports both OpenAPI versions 2 & 3.
+- [ ] Supports both JSON & YML.
 
 ## Install
 
@@ -114,8 +115,11 @@ axios
     - Respect naming conventions.
     - Refactor Code.
   - [Agenda] Beta Version 1.0.x : xx/03/2023
+    - Add simple CLI logs.
     - Add Authorization.
     - Add support for Swagger version 3.
+    - Add support for YML.
+    - Fix issue: npx command on later node/npm versions.
 ```
 
 ## Contributing
