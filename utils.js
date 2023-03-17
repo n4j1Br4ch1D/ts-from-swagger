@@ -4,6 +4,7 @@ import http from "http";
 import https from "https";
 
 export async function generateInterfaces(swaggerUrl, outputDir) {
+  console.log("🥢ts-from-swagger: ", "Start generating...!");
   return new Promise(async (resolve) => {
     const requester = swaggerUrl.startsWith("http://") ? http : https;
     requester
@@ -13,6 +14,7 @@ export async function generateInterfaces(swaggerUrl, outputDir) {
           data += chunk;
         });
         response.on("end", async () => {
+          console.log("🥢ts-from-swagger: ", "Schema fetched successfully!");
           const swagger = await JSON.parse(data);
           const definitions = swagger.definitions;
           if (!fs.existsSync(outputDir))
@@ -89,11 +91,12 @@ export async function generateInterfaces(swaggerUrl, outputDir) {
               fs.writeFileSync(interfaceFilename, interfaceFileContent);
             }
           }
+          console.log("🥢ts-from-swagger: ", "Definitions generated successfully!");
           resolve("resolved");
         });
       })
       .on("error", (error) => {
-        console.error(error);
+        console.error("🥢ts-from-swagger: ", error);
       });
   });
 }

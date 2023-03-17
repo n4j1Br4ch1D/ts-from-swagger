@@ -98,12 +98,12 @@ generateInterfaces(swaggerUrl, outputDir)
         `${definition.filePath} File content does not match expected content.`
       );
     });
-    console.log("All tests passed!");
+    console.log("🥢ts-from-swagger: ", "All tests passed!");
   })
   .catch((error) => {
-    console.error("Test failed:", error);
+    console.error("🥢ts-from-swagger: ", "Test failed:", error);
   })
   .finally(() => {
     fs.rmSync(outputDir, { recursive: true });
-    console.log(outputDir+' Directory deleted successfully.');
+    console.log("🥢ts-from-swagger: ", outputDir+' Directory deleted successfully.');
   });

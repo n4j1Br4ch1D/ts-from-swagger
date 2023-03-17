@@ -114,8 +114,10 @@ axios
     - Make Subfolders.
     - Respect naming conventions.
     - Refactor Code.
-  - [Agenda] Beta Version 1.0.x : xx/03/2023
+  - Beta Version 1.0.3 : 17/03/2023
     - Add simple CLI logs.
+    - Fix run npx: node v14.21.1 / npm v6.14.17
+  - [Agenda] Beta Version 1.0.x : xx/03/2023
     - Add Authorization.
     - Add support for Swagger version 3.
     - Add support for YML.
