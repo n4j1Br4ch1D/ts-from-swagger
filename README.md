@@ -1,5 +1,5 @@
 # :chopsticks: ts-from-swagger
-- :date:**03-15-2023** :pushpin:**Beta Version 1.0.2**
+- :date:**17-03-2023** :pushpin:**Beta Version 1.0.3**
 - :computer:<a href="https://github.com/n4j1Br4ch1D" target="_blank" title="NajibRachid: Agile full-stack developer">NajibRachid</a> :purple_circle:<a href="https://anmoonweb.com/?ref=ts-from-swagger" target="_blank" title="ANMOON: Right talents at the right place ">ANMOON</a> :office: <a href="https://x-hub.io/?ref=ts-from-swagger" target="_blank" title="XHUB: For Developers By Developers">XHUB</a>
 
 Generate TypeScript interfaces and enums quickly and easily from Swagger definition JSON with our lightweight tool. Improve your development workflow by automatically generating type-safe code that's easy to maintain and understand. Say goodbye to manual coding and hello to streamlined development with our Swagger definition Typescript generator.
