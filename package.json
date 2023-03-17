@@ -3,6 +3,7 @@
   "version": "1.0.2",
   "description": "Generate TypeScript interfaces and enums quickly and easily from Swagger definition JSON with our lightweight tool. Improve your development workflow by automatically generating type-safe code that's easy to maintain and understand. Say goodbye to manual coding and hello to streamlined development with our Swagger definition Typescript generator.",
   "main": "\\",
+  "bin":  "index.js",
   "directories": {
     "test": "test"
   },
@@ -10,6 +11,7 @@
   "scripts": {
     "test": "node test/test",
     "gen": "node index https://petstore.swagger.io/v2/swagger.json ./test/src/definitions",
+    "npxgen": "npx .",
     "ts-from-swagger": "npx ts-from-swagger https://petstore.swagger.io/v2/swagger.json ./test/src/definitions"
   },
   "repository": {
