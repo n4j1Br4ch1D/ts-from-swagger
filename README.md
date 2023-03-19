@@ -18,10 +18,10 @@ Generate TypeScript interfaces and enums quickly and easily from Swagger definit
 - [x] Support interfaces and enums. 
 - [x] Support required fields. 
 - [x] Respects naming conventions.
+- [ ] Generates API info: host, basePath, schemes, endpoints, methods.
 - [ ] Authorization for Swagger.
 - [ ] Supports both OpenAPI versions 2 & 3.
 - [ ] Supports both JSON & YML.
-- [ ] Generates an enum for endpoints.
 
 ## Install
 
@@ -119,6 +119,7 @@ axios
     - Add simple CLI logs.
     - Fix run npx: node v14.21.1 / npm v6.14.17
   - [Agenda] Beta Version 1.0.x : xx/03/2023
+    - Generates API info: host, basePath, schemes, endpoints, methods.
     - Add Authorization.
     - Add support for Swagger version 3.
     - Add support for YML.
