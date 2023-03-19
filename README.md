@@ -21,6 +21,7 @@ Generate TypeScript interfaces and enums quickly and easily from Swagger definit
 - [ ] Authorization for Swagger.
 - [ ] Supports both OpenAPI versions 2 & 3.
 - [ ] Supports both JSON & YML.
+- [ ] Generates an enum for endpoints.
 
 ## Install
 
